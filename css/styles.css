@@ -10,6 +10,8 @@
     --secondary-bg-color: #2F303A;
     --footer-rgba-color: rgba(255, 255, 255, 0.6);
     --default-icons-color: #AFB1B8;
+    --footer-social-icons: rgba(255, 255, 255, 0.1);
+
     
 
 } 
@@ -107,7 +109,21 @@ button {
 
 .mail {
     margin-right: 50px;
+    color: var(--secondary-txt-color);
 }
+
+
+
+.icon-header {
+    fill:currentColor;
+    display: inline-flex;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-right: 10px;
+
+}
+
+
 
 
 
@@ -176,6 +192,9 @@ button {
 
     color: var(--secondary-txt-color);
 
+    display: flex;
+    align-items: center;
+
     
 }
 
@@ -187,7 +206,11 @@ button {
 
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg.jpg');
         background-size: cover;
-        max-width: 1600px;
+       
+        
+       
+        
+
 }
 
 
@@ -434,7 +457,7 @@ button {
 
 
 .clients-link {
-    width: 170px;
+    width: 172px;
     height: 92px;
 
     display: flex;
@@ -495,6 +518,66 @@ address .contacts-link.rgba:focus {
     color: var(--accent-color);
 }
 
+.join-us {
+     
+}
+
+.footer-flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.div-address {
+    margin-right: 70px;
+}
+
+
+
+.footer-text {
+    
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+
+    margin-bottom: 20px;
+}
+
+.social-footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+
+    color: var(--white-color);
+        
+    
+    
+}
+
+.footer-flex {}
+
+.social-footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+    background-color: var(--footer-social-icons);
+
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
 
 /* Оформление portfolio.html */
 
@@ -524,7 +607,7 @@ address .contacts-link.rgba:focus {
     color: var(--primary-txt-color);
     background-color: var(--grey-bg-color);
 
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   
     border-radius: 4px;
 
     padding: 6px 22px;
@@ -536,8 +619,15 @@ address .contacts-link.rgba:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
     padding: 6px 25px;
 }
+
+.button:hover,
+.button:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+} 
 
 .filter-buttons button:hover,
 .filter-buttons button:focus {
@@ -567,6 +657,19 @@ address .contacts-link.rgba:focus {
     
 
     
+}
+
+.portfolio-link {
+    display: block;
+
+
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-title {

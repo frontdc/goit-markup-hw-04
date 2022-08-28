@@ -57,19 +57,19 @@
                 </li>
 
                 <li>
-                    <button type="button">Веб-сайти</button>
+                    <button class="button" type="button">Веб-сайти</button>
                 </li>
 
                 <li>
-                    <button type="button">Додатки</button>
+                    <button class="button" type="button">Додатки</button>
                 </li>
 
                 <li>
-                    <button type="button">Дизайн</button>
+                    <button class="button" type="button">Дизайн</button>
                 </li>
 
                 <li>
-                    <button type="button">Маркетинг </button>
+                    <button class="button" type="button">Маркетинг </button>
                 </li>    
             </ul>
 
@@ -78,7 +78,7 @@
 
             <ul class="cards">
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img
                             src="./portfolio_images/img1.jpg"
                             alt="Веб-сайт ТехноКряк"
@@ -91,7 +91,7 @@
                  </li>
 
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                             src="./portfolio_images/img2.jpg" 
                             alt="Дизайн постеру New Orlean versus Golden Star" 
@@ -104,7 +104,7 @@
                  </li>
                  
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                             src="./portfolio_images/img3.jpg" 
                             alt="Додаток для ресторану SeaFood" 
@@ -117,7 +117,7 @@
                  </li>
 
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                         src="./portfolio_images/img4.jpg" 
                         alt="Маркетинг-проєкт Prime" 
@@ -130,7 +130,7 @@
                  </li>
 
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                             src="./portfolio_images/img5.jpg" 
                             alt="Додаток Boxes" 
@@ -143,7 +143,7 @@
                  </li>
 
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                             src="./portfolio_images/img6.jpg" 
                             alt="Сайт Inspiration has no Borders" 
@@ -156,7 +156,7 @@
                  </li>
 
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                             src="./portfolio_images/img7.jpg" 
                             alt="Дизайн-проєкт для видання Limited Edition" 
@@ -169,7 +169,7 @@
                  </li>
                  
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                             src="./portfolio_images/img8.jpg" 
                             alt="Маркетинг-проєкт LAB" 
@@ -182,7 +182,7 @@
                  </li>
 
                  <li class="portfolio-card">
-                    <a href="">
+                    <a class="portfolio-link" href="">
                         <img 
                             src="./portfolio_images/img9.jpg" 
                             alt="Додаток Growing Business" 
@@ -211,25 +211,66 @@
 
 <footer>
 
-    <div class="container">
-        <a href="./index.html" class="logo-footer"> <span class="logo-accent">Web</span>Studio </a>
+    <div class="container footer-flex">
 
-        <!--ОбЪединяю все контакты в один список, так как это однотипный контент-->
-        <address>
-            <ul>
-                <li class="address-item">
-                    <a class="address-link" href="">м. Київ, пр-т Лесі Українки, 26</a>
+        <div class="div-address">
+            <a href="./index.html" class="logo-footer"> <span class="logo-accent">Web</span>Studio </a>
+
+            <!--ОбЪединяю все контакты в один список, так как это однотипный контент-->
+            <address>
+                <ul>
+                    <li class="address-item">
+                        <a class="address-link" href="">м. Київ, пр-т Лесі Українки, 26</a>
+                    </li>
+
+                    <li class="address-item">
+                        <a class="contacts-link rgba" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+
+                    <li class="address-item">
+                        <a class="contacts-link rgba" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+
+
+        <div class="join-us">
+            <p class="footer-text">приєднуйтесь</p>
+            <ul class="social-footer-list">
+                <li>
+                    <a class="social-footer-link" href="#">
+                        <svg class="icon" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
                 </li>
 
-                <li class="address-item">
-                    <a class="contacts-link rgba" href="mailto:info@example.com">info@example.com</a>
+                <li>
+                    <a class="social-footer-link" href="#">
+                        <svg class="icon" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
                 </li>
 
-                <li class="address-item">
-                    <a class="contacts-link rgba" href="tel:+380991111111">+38 099 111 11 11</a>
+                <li>
+                    <a class="social-footer-link" href="#">
+                        <svg class="icon" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="social-footer-link" href="#">
+                        <svg class="icon" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
                 </li>
             </ul>
-        </address>
+        </div>
 
     </div>
 

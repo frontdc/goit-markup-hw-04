@@ -34,8 +34,14 @@
     </nav>
 
     <ul class="contacts-menu">
-      <li class="mail"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <li class="mail"><a class="contacts-link" href="mailto:info@devstudio.com">
+        <svg class="icon-header" width="16px" height="12px">
+          <use href="./images/icons.svg#icon-envelope"></use>
+        </svg>info@devstudio.com</a></li>
+      <li><a class="contacts-link" href="tel:+380961111111">
+        <svg class="icon-header" width="10px" height="16px">
+        <use href="./images/icons.svg#icon-smartphone"></use>
+      </svg>+38 096 111 11 11</a></li>
     </ul>
     
     </div>
@@ -416,7 +422,9 @@
 
   <footer>
 
-    <div class="container">
+    <div class="container footer-flex">
+
+      <div class="div-address">
     <a href="./index.html" class="logo-footer"> <span class="logo-accent">Web</span>Studio </a>
 
     <!--ОбЪединяю все контакты в один список, так как это однотипный контент-->
@@ -435,6 +443,45 @@
       </li>
     </ul>
     </address>
+      </div>
+  
+
+    <div class="join-us">
+      <p class="footer-text">приєднуйтесь</p>
+      <ul class="social-footer-list">
+        <li>
+          <a class="social-footer-link" href="#">
+            <svg class="icon" width="20px" height="20px">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        
+        <li>
+          <a class="social-footer-link" href="#">
+            <svg class="icon" width="20px" height="20px">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        
+        <li>
+          <a class="social-footer-link" href="#">
+            <svg class="icon" width="20px" height="20px">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        
+        <li>
+          <a class="social-footer-link" href="#">
+            <svg class="icon" width="20px" height="20px">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
 
     </div>
 
