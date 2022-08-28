@@ -466,6 +466,7 @@ button {
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    color: var(--default-icons-color);
 }
 
 .clients-link:hover,
@@ -568,7 +569,9 @@ address .contacts-link.rgba:focus {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    
+
+
+    color: var(--white-color);
     background-color: var(--footer-social-icons);
 
 }
