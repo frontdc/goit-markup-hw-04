@@ -206,6 +206,10 @@ button {
 
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg.jpg');
         background-size: cover;
+        max-width: 1600px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: center;
        
         
        
@@ -446,7 +450,7 @@ button {
 
 .clients-list {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
 
     gap: 30px;
@@ -457,7 +461,7 @@ button {
 
 
 .clients-link {
-    width: 172px;
+    width: 170px;
     height: 92px;
 
     display: flex;
@@ -644,8 +648,7 @@ address .contacts-link.rgba:focus {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    
-    
+     
     
 }
 
@@ -656,10 +659,13 @@ address .contacts-link.rgba:focus {
     border-right: 1px solid #EEEEEE;
 
     width: 370px;
-
     
+}
 
-    
+.card-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-link {
